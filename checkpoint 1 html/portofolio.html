@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>PORTOFOLIO</h1>
+        <nav> <!--cette  balise nav permet d'accueillir les lien de navigation des en-tete pour acceder au different section de la page-->
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <li ><a href="#About">About</a></li>
+                <li ><a href="#Work">Work</a></li>
+                <li ><a href="#Resume">Resume</a></li>
+                <li ><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--l'attribut id  permet d'acceder au different section de la page en cliquant sur son identifiant au niveau de barre de recherche-->
+        <section title="About" id="About"><!--J'ai mis dans la balise main une section avec comme nom about qui signifie à propos de moi où j'énumère avec les balises titres h1 et h2 et la balises p tous me concernant et pour marque le début de la section-->
+            <h1>A PROPOS DE MOI</h1>
+            <h2>Salut je suis amadou diop un apprenti  developpeur full stack</h2>
+            <p>Je suis un passionné du monde de l'informatique, ayant récemment plongé dans l'univers fascinant du développement web. Mon intérêt pour la technologie ne date pas d'hier, mais c'est la puissance créative et l'impact significatif du développement web qui m'ont véritablement captivé.</p>
+            <p>Bien que je sois au début de mon parcours dans ce domaine, j'ai déjà investi de nombreuses heures dans l'apprentissage et la pratique des langages de base tels que HTML et CSS. J'aime la manière dont ces compétences me permettent de transformer des idées abstraites en réalités concrètes et interactives sur l'écran.</p>
+            <p>Au-delà du développement web, je m'intéresse également à d'autres aspects de l'informatique, notamment l'intelligence artificielle, la cybersécurité et le développement de logiciels. Je suis constamment à la recherche de nouvelles opportunités d'apprentissage pour élargir mes compétences et comprendre comment ces différents domaines s'interconnectent et se renforcent mutuellement.</p>
+            <p>Je suis convaincu que l'informatique est un domaine en constante évolution, qui offre des possibilités infinies de création et d'innovation. Mon objectif est de continuer à apprendre, à expérimenter et à me développer en tant que professionnel du secteur, tout en contribuant à des projets significatifs et impactants.</p>
+            <a href="efaccae0febad61bb7f56630cb2b600c.jpg"><input type="button" value="MON CV"></a><!--j'ai mis dans la balise a une balise input avec comme type button pour créer un bouton,le parametres value pour l'intitulée du bouton pour permettre au visiteur d'acceder à mon cv-->
+        </section><br><br>
+
+        <section title="Work" id="Work" style="text-align: center;">
+            <h1>SERVICE</h1>
+            <table border="1px" style="width: 100%;">
+                <tr>
+                    <th>Back-End developpeur</th>
+                    <th> Front-End Developpeur</th>
+                </tr>
+                <tr>
+                    <td>Avec les laguages Html CSS JAVA je cree:
+                        <ul>
+                            <li>une mise en page </li>
+                            <li>une esthetique attrayante </li>
+                            <li>une site interactive</li>
+                        </ul>
+                    </td>
+                    <td>Avec la programmation cotès serveur je gère:
+                        <ul>
+                            <li>la gestion des bases de données</li>
+                            <li>la gestion des utilisateurs</li>
+                            <li>la gestion des contenus</li>
+                            <li>la gestion des droits d'accès</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <iframe width="1000px" height="500px" src="https://www.bing.com/ck/a?!&&p=2b1b0f2705cf7902f1cb16e7d7ad4fe6363b18f99420831d1690ae218bf2f950JmltdHM9MTczNjQ2NzIwMA&ptn=3&ver=2&hsh=4&fclid=2f7d8b72-232d-689b-2662-9e67224a692c&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9ZCVjMyVhOXZlbG9wcGVtZW50K3dlYitmdWxsK3N0YWNrJm1pZD1FNEE5MEUzMTMwRDgzRjNDMTQ3RkU0QTkwRTMxMzBEODNGM0MxNDdGJkZPUk09VklSRQ&ntb=1"></iframe>
+        </section><br><br>
+        <section title="Resume" id="Resume" style="text-align: center;">
+            <h1>En Resume</h1>
+            <p>Un développeur full stack est un professionnel de la programmation qui maîtrise à la fois le développement front-end (côté client) et back-end (côté serveur) d'une application web. Voici un résumé de ses compétences :</p>
+            <ul>
+                <li>Conception et développement de sites web interactifs et esthétiques</li>
+                <li>Intégration de contenus multimédias (images, vidéos, animations)</li>
+                <li>Gestion des bases de données et des utilisateurs</li>
+                <li>Optimisation des performances et de la sécurité des sites web</li>
+                <li>Création d'interfaces utilisateur intuitives et ergonomiques</li>
+                <li>Maîtrise des langages de programmation (HTML, CSS, JavaScript, PHP, Python, etc.)</li>
+                <li>Connaissance des frameworks et des bibliothèques de développement web (Bootstrap, jQuery, Angular, React, etc.)</li>
+                <li>Expérience dans le déploiement et la maintenance d'applications web</li>
+                <li>Capacité à travailler en équipe et à communiquer efficacement avec les clients</li>
+                <li>Veille technologique constante pour rester à jour sur les dernières tendances du secteur</li>
+            </ul>
+        </section><br><br>
+        <section title="Contact" id="Contact" style="text-align: center;">
+            <form legend="Contacter moi">
+                <h1>CONTACT</h1>
+                <table style="margin: 10px; width: 85%;">
+                    <tr>
+                        <td><label for="nom">Prenom et Nom:</label></td>
+                        <td><input type="text" id="nom" name="nom" placeholder="full name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nom">Numéro de téléphone :</label></td>
+                        <td><input type="tel" id="nom" name="nom" placeholder="123456789"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input type="email" id="email" name="email" placeholder="exemple@gmail.com"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nom">Sujet:</label></td>
+                        <td><input type="text" id="nom" name="nom" placeholder="your subject"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea id="message" name="message" placeholder="your message"></textarea></td>
+                    </tr>
+                </table>
+            </form>
+        </section><br><br>    
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Work">Work</a></li>
+                <li><a href="#Resume">Resume</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <p>@amadoudiop</p>
+    </footer>
+</body>
+</html>
